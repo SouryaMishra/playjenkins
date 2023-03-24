@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: souryamishra/endgame:latest
+      - image: souryamishra/endgame:16  # not ideal, it should be dynamic like build id
         imagePullPolicy: Always
         name: myweb
 ---
